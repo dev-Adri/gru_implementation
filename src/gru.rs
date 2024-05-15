@@ -6,6 +6,12 @@ use super::math::Matrix;
 use std::fs::File;
 use std::io::{self, Write};
 
+// MARK: GruCell
+//? ~~ todo ~~
+#[derive(Clone, Debug)]
+pub struct GruNetwork {}
+impl GruNetwork {}
+
 #[derive(Clone, Debug)]
 pub struct GruCell {
     reset_xw: Matrix,
